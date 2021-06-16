@@ -1,0 +1,35 @@
+* {
+    background-color: dodgerblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:ghostwhite;
+    text-align: center;
+}
+
+.keyContainer {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+
+.keyContainer p {
+    padding: 40px;
+}
+
+.drums {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    padding: 40px;
+    align-items:flex-start;
+}
+
+/* .drums div:hover img {
+    animation: scale 500ms;
+}
+
+@keyframes scale {
+    to {
+        transform: scale(1.2);
+    }
+} */
+

@@ -112,7 +112,6 @@ rightDrum.addEventListener('touchstart', () => {
 leftCymbal.addEventListener('click', () => {
     ride.play();
     document.images[0].style.height = "400px";
-    document.images[0].style.width = "161.5px";
     setTimeout(()  => {
     document.images[0].style.height = "300px";}, 500)
 });
@@ -120,7 +119,6 @@ leftCymbal.addEventListener('click', () => {
 leftCymbal.addEventListener('touchstart', () => {
     ride.play();
     document.images[0].style.height = "400px";
-    document.images[0].style.width = "161.5px";
     setTimeout(()  => {
     document.images[0].style.height = "300px";}, 500)
 });

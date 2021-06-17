@@ -11,7 +11,7 @@
    justify-content: center;
 }
 
-.keyContainer p {
+.keyContainer div {
     padding: 40px;
 }
 
@@ -20,7 +20,10 @@
     flex-wrap: wrap;
     justify-content: center; 
     padding: 40px;
-    align-items:flex-start;
+}
+
+.drums div {
+  
 }
 
 /* .drums div:hover img {

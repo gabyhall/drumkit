@@ -62,7 +62,19 @@ bigDrumBoom.addEventListener('click', () => {
     document.images[2].style.height = "350px";}, 500)
 });
 
+bigDrumBoom.addEventListener('touchstart', () => {
+    boom.play();
+    document.images[2].style.height = "450px";
+    setTimeout(()  => {
+    document.images[2].style.height = "350px";}, 500)
+});
+
+
 bigDrumKick.addEventListener('click', () => {
+    kick.play();
+});
+
+bigDrumKick.addEventListener('touchstart', () => {
     kick.play();
 });
 
@@ -74,6 +86,14 @@ leftDrum.addEventListener('click', () => {
     document.images[1].style.height = "400px";}, 500)
 });
 
+leftDrum.addEventListener('touchstart', () => {
+    tom.play();
+    document.images[1].style.height = "500px";
+    setTimeout(()  => {
+    document.images[1].style.height = "400px";}, 500)
+});
+
+
 rightDrum.addEventListener('click', () => {
     snare.play();
     document.images[4].style.height = "400px";
@@ -81,12 +101,30 @@ rightDrum.addEventListener('click', () => {
     document.images[4].style.height = "300px";}, 500)
 });
 
+rightDrum.addEventListener('touchstart', () => {
+    snare.play();
+    document.images[4].style.height = "400px";
+    setTimeout(()  => {
+    document.images[4].style.height = "300px";}, 500)
+});
+
+
 leftCymbal.addEventListener('click', () => {
     ride.play();
     document.images[0].style.height = "400px";
+    document.images[0].style.width = "161.5px";
     setTimeout(()  => {
     document.images[0].style.height = "300px";}, 500)
 });
+
+leftCymbal.addEventListener('touchstart', () => {
+    ride.play();
+    document.images[0].style.height = "400px";
+    document.images[0].style.width = "161.5px";
+    setTimeout(()  => {
+    document.images[0].style.height = "300px";}, 500)
+});
+
 
 rightCymbalHi.addEventListener('click', () => {
     hihat.play();
@@ -95,7 +133,18 @@ rightCymbalHi.addEventListener('click', () => {
     document.images[5].style.height = "300px";}, 500)
 });
 
+rightCymbalHi.addEventListener('touchstart', () => {
+    hihat.play();
+    document.images[5].style.height = "400px";
+    setTimeout(()  => {
+    document.images[5].style.height = "300px";}, 500)
+});
+
+
 rightCymbalOpen.addEventListener('click', () => {
     openhat.play();
 });
 
+rightCymbalOpen.addEventListener('touchstart', () => {
+    openhat.play();
+});
